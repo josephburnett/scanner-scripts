@@ -2,7 +2,7 @@
 
 set -e
 
-TITLE=$@
+read -p "Enter title : " TITLE
 if [[ -z "${TITLE?}" ]]; then
     echo "Usage: scan-to-nixnote2.sh <title>"
     exit 1
