@@ -28,6 +28,6 @@ nixnote2 \
     addNote \
     --notebook='_Unfiled' \
     --title="$TITLE" \
-    --noteText="$TITLE" \
+    --noteText="%%" \
     --attachment="$DIR/out.pdf"
 
